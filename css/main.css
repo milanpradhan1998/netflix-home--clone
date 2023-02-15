@@ -1,0 +1,241 @@
+*{
+    margin: 0px !important;
+    padding: 0px !important;
+    box-sizing: border-box !important; 
+}
+/* my own classes */
+.fs-xl-1{
+    font-size: 60px !important;
+}
+.fs-xl-2{
+    font-size: 48px !important;
+}
+.fs-xl-3{
+    font-size: 36px !important;
+}
+/* color my */
+.bg-x-dark{
+    background-color: black;
+}
+
+.first-main-page{ 
+    height: 100vh;
+    width: 100%;
+    /* background-color: aquamarine; */
+    background:linear-gradient( rgba(24, 23, 23, 0.868)20%,transparent, rgba(37, 36, 36, 0.817)80% 100%), url(../images/bg-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0px;
+    border-bottom: 10px solid #222;
+
+}
+
+
+.main-content{
+    height: 90%;
+    margin-top: 8rem;
+    /* background-color: aqua; */
+    
+}
+.main-content-box{
+    text-align: center;
+    /* width: 750px; */
+    padding: 0 3rem;
+}
+
+/* Email input area */
+.email-input-box{
+    height: 65px;
+}
+
+/* Second section  */
+.second-section{
+    height:55vh;
+    /* background-color: black; */
+    border-bottom: 10px solid rgb(56, 56, 56);
+}
+.tv-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+    width: 50%;
+    height: 100%;
+}
+
+.tv-video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+    position: relative;
+}
+.tv-video img{
+    height: auto;
+    width: 70%;
+    overflow: hidden;
+    position: absolute;
+    z-index: 2;
+    /* display: none; */
+}
+
+.tv-video > video{
+    position: absolute;
+    top: 20%;
+    left: 23%;
+    height: 54%;
+    width: 54%;
+}
+
+/* section three */
+.three-section{
+    height:55vh;
+    /* background-color: black; */
+    border-bottom: 10px solid rgb(56, 56, 56);
+    
+}
+.mobile-section{
+    height: 100%;
+    width: 50%;
+    position: relative;
+}
+.mobile-section >img{
+    width: 70%;
+    height: auto;
+    position: absolute;
+    /* max-height: 380px; */
+}
+.mobile-section > div{
+    height: auto;
+    width: 45%;
+    position: relative;
+    top: 25%;
+    border: solid 2px gray;
+    background-color: black;
+    border-radius: 10px;
+}
+#poster-mob{
+    height: 80px;
+    padding: 0px !important;
+    margin: 0px !important;
+}
+#download-img{
+    height: 60px;
+    padding: 0px !important;
+    margin: 0px !important; 
+}
+.download-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+    width: 50%;
+    height: 100%;
+}
+/*  sec 4 start */
+.sec-four{
+    height:55vh;
+    /* background-color: black; */
+    border-bottom: 10px solid rgb(56, 56, 56);
+}
+.device-text{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.device-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+    position: relative;
+}
+.device-img img{
+    height: auto;
+    width: 75%;
+    overflow: hidden;
+    position: absolute;
+    z-index: 2;
+}
+.device-img video{
+    position: absolute;
+    top: 10%;
+    left: 25%;
+    height: 49%;
+    width: 48%;
+}
+
+/* sec five start */
+.sec-five{
+    height:55vh;
+    /* background-color: black; */
+    border-bottom: 10px solid rgb(56, 56, 56);
+}
+.kids-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+}
+.kids-img img{
+    height: auto;
+    width: 70%;
+}
+.kids-text{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+/* sec six start */
+.sec-six{
+    /* height: 100vh;
+    background-color: rgb(0, 0, 0); */
+}
+.accordion-item{
+    /* font-size: 28px !important; */
+    margin: 8px 0px !important;
+    padding: 10px 10px !important;
+    border-radius: 2px !important;
+    box-shadow: gray 2px 2px 3px -1px,
+                rgb(139, 139, 139) -2px -2px 3px -1px;
+    background-color: #222 !important;
+    color: white;
+    border: 1px solid white !important;            
+}
+.accordion-button:not(.collapsed)::after {
+    background-image: url(../images/minus-solid.png);
+    transform: rotate(-180deg);
+}
+.accordion-button::after {
+    flex-shrink: 0;
+    width: 1.25rem;
+    height: 1.25rem;
+    margin-left: auto;
+    background-image: url(../images/plus-solid.png);
+    background-repeat: no-repeat;
+    background-size: 1.25rem;
+    transition: transform .2s ease-in-out;
+}
+
+/* sec seven start */
+.sec-seven{
+    color: grey;
+}
+.footer-menu ul li{
+    width: 23% !important;
+    height: 40px !important;
+    margin: 3px 3px !important;
+    font-size: 14px !important;
+    color: white !important;
+}
